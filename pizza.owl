@@ -429,6 +429,15 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248299298659848000"/>
     </Declaration>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>hasIngredient</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
+    </Declaration>
 </Ontology>
 
 
