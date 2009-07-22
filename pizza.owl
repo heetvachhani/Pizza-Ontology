@@ -641,7 +641,7 @@
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248303971696803000"/>
         <Annotation annotationURI="&rdfs;label">
-            <Constant>SchoPizza</Constant>
+            <Constant>SohoPizza</Constant>
         </Annotation>
     </EntityAnnotation>
     <Declaration>
