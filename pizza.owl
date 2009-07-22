@@ -56,6 +56,52 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248298328292844000"/>
     </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248298721973444000"/>
+        <Class URI="&pizza;OWLClass_01248298328292844000"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class URI="&pizza;OWLClass_01248298721973444000"/>
+        <Class URI="&pizza;OWLClass_01248299058695013000"/>
+        <Class URI="&pizza;OWLClass_01248299058695760000"/>
+    </DisjointClasses>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248298721973444000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >ThinAndCrispyBase</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248298721973444000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248299058695013000"/>
+        <Class URI="&pizza;OWLClass_01248298328292844000"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248299058695013000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>DeepPanBase</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248299058695013000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248299058695760000"/>
+        <Class URI="&pizza;OWLClass_01248298328292844000"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248299058695760000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >CheesyBorderBase</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248299058695760000"/>
+    </Declaration>
 </Ontology>
 
 
