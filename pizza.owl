@@ -389,7 +389,7 @@
         <Class URI="&pizza;OWLClass_01248299298657873000"/>
         <Annotation annotationURI="&rdfs;label">
             <Constant
-                >GreenPepperTopping</Constant>
+                >HotGreenPepperTopping</Constant>
         </Annotation>
     </EntityAnnotation>
     <Declaration>
@@ -523,6 +523,110 @@
     </EntityAnnotation>
     <Declaration>
         <Class URI="&pizza;OWLClass_01248303385881995000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298644286000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298647160000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298657873000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298658612000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298659848000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A pizza that only has Mozerella and Tomatoe toppings</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >AmericanHotPizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298644286000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298645046000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298653186000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298659848000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A pizza that only has Mozerella and Tomatoe toppings</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>SchoPizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
     </Declaration>
     <InverseObjectProperties>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
