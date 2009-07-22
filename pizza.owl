@@ -662,17 +662,16 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248304078802499000"/>
     </Declaration>
-    <SubClassOf>
+    <EquivalentClasses>
         <Class URI="&pizza;OWLClass_01248304710261268000"/>
-        <Class URI="&pizza;OWLClass_01248303364347987000"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class URI="&pizza;OWLClass_01248304710261268000"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
-            <Class URI="&pizza;OWLClass_01248299058696402000"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
+        <ObjectIntersectionOf>
+            <Class URI="&pizza;OWLClass_01248303364347987000"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+                <Class URI="&pizza;OWLClass_01248299058696402000"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248304710261268000"/>
         <Annotation annotationURI="&rdfs;label">
