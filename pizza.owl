@@ -117,6 +117,9 @@
         <Class URI="&pizza;OWLClass_01248299058696402000"/>
         <Class URI="&pizza;OWLClass_01248299298645700000"/>
         <Class URI="&pizza;OWLClass_01248299298649002000"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class URI="&pizza;OWLClass_01248299058696402000"/>
         <Class URI="&pizza;OWLClass_01248299298651431000"/>
     </DisjointClasses>
     <EntityAnnotation>
@@ -658,6 +661,26 @@
     </EntityAnnotation>
     <Declaration>
         <Class URI="&pizza;OWLClass_01248304078802499000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248304710261268000"/>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248304710261268000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299058696402000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248304710261268000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>CheesyPizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248304710261268000"/>
     </Declaration>
     <InverseObjectProperties>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
