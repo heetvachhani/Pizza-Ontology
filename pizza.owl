@@ -436,6 +436,53 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248299298659848000"/>
     </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+        <Class URI="&pizza;OWLClass_01248298306625933000"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>NamedPizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298644286000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298659848000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A pizza that only has Mozerella and Tomatoe toppings</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>MargheritaPizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+    </Declaration>
     <InverseObjectProperties>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
