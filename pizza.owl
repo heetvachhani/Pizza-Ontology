@@ -438,6 +438,24 @@
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </Declaration>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>hasTopping</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+    </Declaration>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>hasBase</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
+    </Declaration>
 </Ontology>
 
 
