@@ -621,15 +621,19 @@
         <Class URI="&pizza;OWLClass_01248303971696803000"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
-            <Class URI="&pizza;OWLClass_01248299298653186000"/>
+            <Class URI="&pizza;OWLClass_01248299298659848000"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class URI="&pizza;OWLClass_01248303971696803000"/>
-        <ObjectSomeValuesFrom>
+        <ObjectAllValuesFrom>
             <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
-            <Class URI="&pizza;OWLClass_01248299298659848000"/>
-        </ObjectSomeValuesFrom>
+            <ObjectUnionOf>
+                <Class URI="&pizza;OWLClass_01248299298644286000"/>
+                <Class URI="&pizza;OWLClass_01248299298645046000"/>
+                <Class URI="&pizza;OWLClass_01248299298659848000"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248303971696803000"/>
