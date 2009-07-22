@@ -24,6 +24,13 @@
         <Constant
             >A pizza ontology that describes various pizzas based on their toppings</Constant>
     </Annotation>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248298306625933000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
+            <Class URI="&pizza;OWLClass_01248298328292844000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class URI="&pizza;OWLClass_01248298306625933000"/>
         <Class URI="&pizza;OWLClass_01248298320747653000"/>
