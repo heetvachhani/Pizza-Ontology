@@ -634,6 +634,31 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248303971696803000"/>
     </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248304078802499000"/>
+        <Class URI="&pizza;OWLClass_01248299058696402000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248304078802499000"/>
+        <Class URI="&pizza;OWLClass_01248299298651431000"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248304078802499000"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >The class should be inconsistent when the ontology is classified</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248304078802499000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >ProbeInconsistentTopping</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248304078802499000"/>
+    </Declaration>
     <InverseObjectProperties>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
