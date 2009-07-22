@@ -442,6 +442,10 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+    </InverseObjectProperties>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
         <Annotation annotationURI="&rdfs;label">
@@ -455,6 +459,10 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+    </InverseObjectProperties>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
         <Annotation annotationURI="&rdfs;label">
@@ -463,6 +471,45 @@
     </EntityAnnotation>
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
+    </Declaration>
+    <InverseObjectProperties>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
+    </InverseObjectProperties>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>isIngredientOf</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+    </Declaration>
+    <SubObjectPropertyOf>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299995444492000"/>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+    </SubObjectPropertyOf>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299995444492000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>isBaseOf</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299995444492000"/>
+    </Declaration>
+    <SubObjectPropertyOf>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248300066398370000"/>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+    </SubObjectPropertyOf>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248300066398370000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>isToppingOf</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248300066398370000"/>
     </Declaration>
 </Ontology>
 
