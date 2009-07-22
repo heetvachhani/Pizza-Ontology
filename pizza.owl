@@ -467,6 +467,12 @@
             <Class URI="&pizza;OWLClass_01248299298659848000"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <DisjointClasses>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <Class URI="&pizza;OWLClass_01248303385881995000"/>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <Class URI="&pizza;OWLClass_01248303971696803000"/>
+    </DisjointClasses>
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248303368375592000"/>
         <Annotation annotationURI="&rdfs;comment">
