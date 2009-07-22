@@ -445,6 +445,10 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </SubObjectPropertyOf>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+        <Class URI="&pizza;OWLClass_01248298320747653000"/>
+    </ObjectPropertyRange>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
         <Annotation annotationURI="&rdfs;label">
