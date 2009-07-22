@@ -458,6 +458,9 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
+    </FunctionalObjectProperty>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
         <Annotation annotationURI="&rdfs;label">
