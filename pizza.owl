@@ -470,6 +470,16 @@
             <Class URI="&pizza;OWLClass_01248299298659848000"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <ObjectUnionOf>
+                <Class URI="&pizza;OWLClass_01248299298644286000"/>
+                <Class URI="&pizza;OWLClass_01248299298659848000"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class URI="&pizza;OWLClass_01248303368375592000"/>
         <Class URI="&pizza;OWLClass_01248303385881995000"/>
