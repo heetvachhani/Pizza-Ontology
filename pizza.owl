@@ -663,9 +663,9 @@
         <Class URI="&pizza;OWLClass_01248304078802499000"/>
     </Declaration>
     <EquivalentClasses>
-        <Class URI="&pizza;OWLClass_01248304710261268000"/>
+        <Class URI="&pizza;OWLClass_01248305380508603000"/>
         <ObjectIntersectionOf>
-            <Class URI="&pizza;OWLClass_01248303364347987000"/>
+            <Class URI="&pizza;OWLClass_01248298306625933000"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
                 <Class URI="&pizza;OWLClass_01248299058696402000"/>
@@ -673,13 +673,13 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EntityAnnotation>
-        <Class URI="&pizza;OWLClass_01248304710261268000"/>
+        <Class URI="&pizza;OWLClass_01248305380508603000"/>
         <Annotation annotationURI="&rdfs;label">
-            <Constant>CheesyPizza</Constant>
+            <Constant>CheezyPizza</Constant>
         </Annotation>
     </EntityAnnotation>
     <Declaration>
-        <Class URI="&pizza;OWLClass_01248304710261268000"/>
+        <Class URI="&pizza;OWLClass_01248305380508603000"/>
     </Declaration>
     <InverseObjectProperties>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
