@@ -429,6 +429,9 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248299298659848000"/>
     </Declaration>
+    <TransitiveObjectProperty>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
+    </TransitiveObjectProperty>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
         <Annotation annotationURI="&rdfs;label">
@@ -442,10 +445,6 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
-    </InverseObjectProperties>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
         <Annotation annotationURI="&rdfs;label">
@@ -459,10 +458,6 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
-    </InverseObjectProperties>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
         <Annotation annotationURI="&rdfs;label">
@@ -476,6 +471,9 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+    </TransitiveObjectProperty>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
         <Annotation annotationURI="&rdfs;label">
