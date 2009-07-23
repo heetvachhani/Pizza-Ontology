@@ -124,9 +124,6 @@
         <Class URI="&pizza;OWLClass_01248299058696402000"/>
         <Class URI="&pizza;OWLClass_01248299298645700000"/>
         <Class URI="&pizza;OWLClass_01248299298649002000"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class URI="&pizza;OWLClass_01248299058696402000"/>
         <Class URI="&pizza;OWLClass_01248299298651431000"/>
     </DisjointClasses>
     <EntityAnnotation>
@@ -774,6 +771,10 @@
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
+    <DisjointClasses>
+        <Class URI="&pizza;OWLClass_01248305963344280000"/>
+        <Class URI="&pizza;OWLClass_01248311642040480000"/>
+    </DisjointClasses>
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248305963344280000"/>
         <Annotation annotationURI="&rdfs;label">
@@ -981,10 +982,25 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248311269977820000"/>
     </Declaration>
-    <InverseObjectProperties>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
-    </InverseObjectProperties>
+    <EquivalentClasses>
+        <Class URI="&pizza;OWLClass_01248311642040480000"/>
+        <ObjectIntersectionOf>
+            <Class URI="&pizza;OWLClass_01248298306625933000"/>
+            <ObjectComplementOf>
+                <Class URI="&pizza;OWLClass_01248305963344280000"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248311642040480000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >NonVegetarianPizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248311642040480000"/>
+    </Declaration>
     <TransitiveObjectProperty>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </TransitiveObjectProperty>
@@ -1026,10 +1042,6 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
-        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299995444492000"/>
-    </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
     </FunctionalObjectProperty>
@@ -1050,6 +1062,10 @@
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
     </Declaration>
+    <InverseObjectProperties>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
+    </InverseObjectProperties>
     <TransitiveObjectProperty>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
     </TransitiveObjectProperty>
@@ -1066,6 +1082,10 @@
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299995444492000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
     </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299995444492000"/>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248299741729713000"/>
+    </InverseObjectProperties>
     <EntityAnnotation>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299995444492000"/>
         <Annotation annotationURI="&rdfs;label">
