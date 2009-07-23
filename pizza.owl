@@ -929,6 +929,58 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248309637042811000"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class URI="&pizza;OWLClass_01248310671970991000"/>
+        <ObjectIntersectionOf>
+            <Class URI="&pizza;OWLClass_01248298306625933000"/>
+            <ObjectIntersectionOf>
+                <Class URI="&pizza;OWLClass_01248298306625933000"/>
+                <DataSomeValuesFrom>
+                    <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+                    <DatatypeRestriction>
+                        <Datatype URI="&xsd;integer"/>
+                        <DatatypeFacetRestriction facet="&xsd;minInclusive">
+                            <Constant datatypeURI="&xsd;integer">400</Constant>
+                        </DatatypeFacetRestriction>
+                    </DatatypeRestriction>
+                </DataSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248310671970991000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >HighCaloriePizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248310671970991000"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class URI="&pizza;OWLClass_01248311269977820000"/>
+        <ObjectIntersectionOf>
+            <Class URI="&pizza;OWLClass_01248298306625933000"/>
+            <DataSomeValuesFrom>
+                <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+                <DatatypeRestriction>
+                    <Datatype URI="&xsd;integer"/>
+                    <DatatypeFacetRestriction facet="&xsd;maxExclusive">
+                        <Constant datatypeURI="&xsd;integer">400</Constant>
+                    </DatatypeFacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248311269977820000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>LowCaloriePizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248311269977820000"/>
+    </Declaration>
     <InverseObjectProperties>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
