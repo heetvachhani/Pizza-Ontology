@@ -202,7 +202,7 @@
         <Class URI="&pizza;OWLClass_01248299298647160000"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
-            <Class URI="&pizza;OWLClass_01248307970137756000"/>
+            <Class URI="&pizza;OWLClass_01248308001090726000"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <EntityAnnotation>
