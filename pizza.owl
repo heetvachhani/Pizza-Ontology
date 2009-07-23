@@ -31,6 +31,13 @@
             <Class URI="&pizza;OWLClass_01248298328292844000"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248298306625933000"/>
+        <DataSomeValuesFrom>
+            <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+            <Datatype URI="&xsd;integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class URI="&pizza;OWLClass_01248298306625933000"/>
         <Class URI="&pizza;OWLClass_01248298320747653000"/>
