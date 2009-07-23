@@ -741,6 +741,81 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248305963344280000"/>
     </Declaration>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248306386321039000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>ValuePartition</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248306386321039000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+        <Class URI="&pizza;OWLClass_01248306386321039000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+        <ObjectUnionOf>
+            <Class URI="&pizza;OWLClass_01248307970137756000"/>
+            <Class URI="&pizza;OWLClass_01248308001090726000"/>
+            <Class URI="&pizza;OWLClass_01248308001091517000"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >SpicinessValuePartition</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248307970137756000"/>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class URI="&pizza;OWLClass_01248307970137756000"/>
+        <Class URI="&pizza;OWLClass_01248308001090726000"/>
+        <Class URI="&pizza;OWLClass_01248308001091517000"/>
+    </DisjointClasses>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248307970137756000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>Hot</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248307970137756000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248308001090726000"/>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248308001090726000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>Medium</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248308001090726000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248308001091517000"/>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248308001091517000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>Mild</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248308001091517000"/>
+    </Declaration>
     <InverseObjectProperties>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299745595911000"/>
@@ -847,6 +922,22 @@
     </EntityAnnotation>
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248300066398370000"/>
+    </Declaration>
+    <FunctionalObjectProperty>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyRange>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
+        <Class URI="&pizza;OWLClass_01248307936668833000"/>
+    </ObjectPropertyRange>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>hasSpiciness</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
     </Declaration>
 </Ontology>
 
