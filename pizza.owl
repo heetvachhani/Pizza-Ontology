@@ -1051,6 +1051,50 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248313616017399000"/>
     </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248314239926726000"/>
+        <Class URI="&owl;Thing"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248314239926726000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>Polygon</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248314239926726000"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class URI="&pizza;OWLClass_01248314496557429000"/>
+        <ObjectIntersectionOf>
+            <Class URI="&pizza;OWLClass_01248314239926726000"/>
+            <ObjectExactCardinality cardinality="3">
+                <ObjectProperty URI="&pizza;OWLObjectProperty_01248314501295549000"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class URI="&pizza;OWLClass_01248314496557429000"/>
+        <ObjectIntersectionOf>
+            <Class URI="&pizza;OWLClass_01248314239926726000"/>
+            <ObjectExactCardinality cardinality="3">
+                <ObjectProperty URI="&pizza;OWLObjectProperty_01248314516489049000"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248314496557429000"/>
+        <Class URI="&pizza;OWLClass_01248314239926726000"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248314496557429000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>Triangle</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248314496557429000"/>
+    </Declaration>
     <TransitiveObjectProperty>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
     </TransitiveObjectProperty>
@@ -1183,6 +1227,24 @@
     </EntityAnnotation>
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248313775367886000"/>
+    </Declaration>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248314501295549000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>hasSide</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248314501295549000"/>
+    </Declaration>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248314516489049000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>hasAngle</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248314516489049000"/>
     </Declaration>
     <FunctionalDataProperty>
         <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
