@@ -1174,6 +1174,30 @@
     <Declaration>
         <Individual URI="&pizza;OWLIndividual_01248310256260129000"/>
     </Declaration>
+    <ClassAssertion>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <Individual URI="&pizza;OWLIndividual_01248311348083580000"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+        <Individual URI="&pizza;OWLIndividual_01248311348083580000"/>
+        <Constant datatypeURI="&xsd;integer">777</Constant>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+        <Individual URI="&pizza;OWLIndividual_01248311348083580000"/>
+        <Constant datatypeURI="&xsd;integer">666</Constant>
+    </DataPropertyAssertion>
+    <EntityAnnotation>
+        <Individual URI="&pizza;OWLIndividual_01248311348083580000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >InvalidExamplePizzaWithTwoCalorieValues</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Individual URI="&pizza;OWLIndividual_01248311348083580000"/>
+    </Declaration>
 </Ontology>
 
 
