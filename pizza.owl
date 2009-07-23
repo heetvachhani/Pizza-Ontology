@@ -934,18 +934,15 @@
         <Class URI="&pizza;OWLClass_01248310671970991000"/>
         <ObjectIntersectionOf>
             <Class URI="&pizza;OWLClass_01248298306625933000"/>
-            <ObjectIntersectionOf>
-                <Class URI="&pizza;OWLClass_01248298306625933000"/>
-                <DataSomeValuesFrom>
-                    <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
-                    <DatatypeRestriction>
-                        <Datatype URI="&xsd;integer"/>
-                        <DatatypeFacetRestriction facet="&xsd;minInclusive">
-                            <Constant datatypeURI="&xsd;integer">400</Constant>
-                        </DatatypeFacetRestriction>
-                    </DatatypeRestriction>
-                </DataSomeValuesFrom>
-            </ObjectIntersectionOf>
+            <DataSomeValuesFrom>
+                <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+                <DatatypeRestriction>
+                    <Datatype URI="&xsd;integer"/>
+                    <DatatypeFacetRestriction facet="&xsd;minInclusive">
+                        <Constant datatypeURI="&xsd;integer">400</Constant>
+                    </DatatypeFacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EntityAnnotation>
@@ -1000,6 +997,26 @@
     </EntityAnnotation>
     <Declaration>
         <Class URI="&pizza;OWLClass_01248311642040480000"/>
+    </Declaration>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248313009356163000"/>
+        <Class URI="&pizza;OWLClass_01248303364347987000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248313009356163000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <Class URI="&pizza;OWLClass_01248299298644286000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <EntityAnnotation>
+        <Class URI="&pizza;OWLClass_01248313009356163000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>UnclosedPizza</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Class URI="&pizza;OWLClass_01248313009356163000"/>
     </Declaration>
     <TransitiveObjectProperty>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248299298660453000"/>
