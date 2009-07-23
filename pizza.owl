@@ -1045,6 +1045,16 @@
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
     </Declaration>
+    <EntityAnnotation>
+        <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >hasCalorificContentValue</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+    </Declaration>
 </Ontology>
 
 
