@@ -1032,6 +1032,16 @@
     <Declaration>
         <Class URI="&pizza;OWLClass_01248313009356163000"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class URI="&pizza;OWLClass_01248313616017399000"/>
+        <ObjectOneOf>
+            <Individual URI="&pizza;OWLIndividual_01248313730530327000"/>
+            <Individual URI="&pizza;OWLIndividual_01248313904802875000"/>
+            <Individual URI="&pizza;OWLIndividual_01248313772631244000"/>
+            <Individual URI="&pizza;OWLIndividual_01248313765267612000"/>
+            <Individual URI="&pizza;OWLIndividual_01248313693872910000"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248313616017399000"/>
         <Annotation annotationURI="&rdfs;label">
@@ -1295,6 +1305,19 @@
     </EntityAnnotation>
     <Declaration>
         <Individual URI="&pizza;OWLIndividual_01248313772631244000"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class URI="&pizza;OWLClass_01248313616017399000"/>
+        <Individual URI="&pizza;OWLIndividual_01248313904802875000"/>
+    </ClassAssertion>
+    <EntityAnnotation>
+        <Individual URI="&pizza;OWLIndividual_01248313904802875000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant>America</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Individual URI="&pizza;OWLIndividual_01248313904802875000"/>
     </Declaration>
 </Ontology>
 
