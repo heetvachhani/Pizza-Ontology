@@ -527,6 +527,17 @@
             <Class URI="&pizza;OWLClass_01248299298659848000"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303385881995000"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <ObjectUnionOf>
+                <Class URI="&pizza;OWLClass_01248299298644286000"/>
+                <Class URI="&pizza;OWLClass_01248299298647160000"/>
+                <Class URI="&pizza;OWLClass_01248299298659848000"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248303385881995000"/>
         <Annotation annotationURI="&rdfs;comment">
@@ -581,6 +592,19 @@
             <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
             <Class URI="&pizza;OWLClass_01248299298659848000"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248303838437177000"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248299692144209000"/>
+            <ObjectUnionOf>
+                <Class URI="&pizza;OWLClass_01248299298644286000"/>
+                <Class URI="&pizza;OWLClass_01248299298647160000"/>
+                <Class URI="&pizza;OWLClass_01248299298657873000"/>
+                <Class URI="&pizza;OWLClass_01248299298658612000"/>
+                <Class URI="&pizza;OWLClass_01248299298659848000"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <EntityAnnotation>
         <Class URI="&pizza;OWLClass_01248303838437177000"/>
