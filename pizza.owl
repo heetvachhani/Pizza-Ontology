@@ -1055,6 +1055,44 @@
     <Declaration>
         <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
     </Declaration>
+    <ClassAssertion>
+        <Class URI="&pizza;OWLClass_01248303368375592000"/>
+        <Individual URI="&pizza;OWLIndividual_01248310060044976000"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+        <Individual URI="&pizza;OWLIndividual_01248310060044976000"/>
+        <Constant datatypeURI="&xsd;integer">263</Constant>
+    </DataPropertyAssertion>
+    <EntityAnnotation>
+        <Individual URI="&pizza;OWLIndividual_01248310060044976000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >ExampleMargherita</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Individual URI="&pizza;OWLIndividual_01248310060044976000"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class URI="&pizza;OWLClass_01248309637042811000"/>
+        <Individual URI="&pizza;OWLIndividual_01248310151781261000"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+        <Individual URI="&pizza;OWLIndividual_01248310151781261000"/>
+        <Constant datatypeURI="&xsd;integer">723</Constant>
+    </DataPropertyAssertion>
+    <EntityAnnotation>
+        <Individual URI="&pizza;OWLIndividual_01248310151781261000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >QuattroFormaggio</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <Individual URI="&pizza;OWLIndividual_01248310151781261000"/>
+    </Declaration>
 </Ontology>
 
 
