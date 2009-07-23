@@ -120,6 +120,13 @@
         <Class URI="&pizza;OWLClass_01248299058696402000"/>
         <Class URI="&pizza;OWLClass_01248298320747653000"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248299058696402000"/>
+        <ObjectHasValue>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248313775367886000"/>
+            <Individual URI="&pizza;OWLIndividual_01248313693872910000"/>
+        </ObjectHasValue>
+    </SubClassOf>
     <DisjointClasses>
         <Class URI="&pizza;OWLClass_01248299058696402000"/>
         <Class URI="&pizza;OWLClass_01248299298645700000"/>
@@ -138,6 +145,13 @@
     <SubClassOf>
         <Class URI="&pizza;OWLClass_01248299298644286000"/>
         <Class URI="&pizza;OWLClass_01248299058696402000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class URI="&pizza;OWLClass_01248299298644286000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
+            <Class URI="&pizza;OWLClass_01248308001091517000"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class URI="&pizza;OWLClass_01248299298644286000"/>
@@ -1149,6 +1163,16 @@
     </EntityAnnotation>
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
+    </Declaration>
+    <EntityAnnotation>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248313775367886000"/>
+        <Annotation annotationURI="&rdfs;label">
+            <Constant
+                >hasCountryOfOrigin</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <ObjectProperty URI="&pizza;OWLObjectProperty_01248313775367886000"/>
     </Declaration>
     <FunctionalDataProperty>
         <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
