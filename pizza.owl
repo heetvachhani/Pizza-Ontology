@@ -1104,6 +1104,9 @@
     <Declaration>
         <ObjectProperty URI="&pizza;OWLObjectProperty_01248308001091965000"/>
     </Declaration>
+    <FunctionalDataProperty>
+        <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
+    </FunctionalDataProperty>
     <EntityAnnotation>
         <DataProperty URI="&pizza;OWLDataProperty_01248309849658523000"/>
         <Annotation annotationURI="&rdfs;label">
